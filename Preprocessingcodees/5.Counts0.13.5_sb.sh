@@ -28,7 +28,7 @@ mappingresultspath="./mapping2.7.5aRhesus/"
 
 Al_files=("$mappingresultspath"*.out.bam)
 
-GTF_FILE='/vol01/genome/Macaca_mulatta/10.100_STAR_2.7.5a/Macaca_mulatta.Mmul_10.100.gtf'
+GTF_FILE='./10.100_STAR_2.7.5a/Macaca_mulatta.Mmul_10.100.gtf'
 
 echo "Number of Alignment files = ${#Al_files[*]} should be 138"
 

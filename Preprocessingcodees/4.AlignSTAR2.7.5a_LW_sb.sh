@@ -17,11 +17,11 @@ mkdir "mapping2.7.5a/logs"
 
 ###Generates variables for paths to raw seq data and reference genome (make sure to have / at end of paths)
 
-RAW_SOURCEDIR='/vol08/ngs/P51/CoVTEN/CoVTEN-01/WhitmoreAnalysis/nohmrRNA_noglobin/'
+RAW_SOURCEDIR='./nohmrRNA_noglobin/'
 
 #Dan Newhouse generate indexes for this genome with option sjdboverhang 99 specified
-GENOME_SOURCEDIR='/vol01/genome/Macaca_mulatta/10.100_STAR_2.7.5a'
-GTF_FILE='/vol01/genome/Macaca_mulatta/10.100_STAR_2.7.5a/Macaca_mulatta.Mmul_10.100.gtf'
+GENOME_SOURCEDIR='.Macaca_mulatta/10.100_STAR_2.7.5a'
+GTF_FILE='./10.100_STAR_2.7.5a/Macaca_mulatta.Mmul_10.100.gtf'
 
 
 ##Pulls in all sequencing data from raw source directory (NOTE: *D* ensures no control files are pulled out) 
