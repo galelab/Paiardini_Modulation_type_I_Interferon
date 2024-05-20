@@ -1,7 +1,7 @@
 #Run Rv4.1.0 Fruitfly
 options(mc.cores = 8)
 library(SetRank)
-# devtools::install("/share/lwhitmo/GeneSets_SetRank/GeneSets/GeneSets.Homo.sapiens")
+# devtools::install("GeneSets.Homo.sapiens")
 library(GeneSets.Homo.sapiens)
 library(limma)
 library(edgeR)
